@@ -1,0 +1,152 @@
+state,state_num,elxn_date,name,abb,english,fed_elxn,state_inc,state_elxn,leader_elxn,seats,votes,fed_2019,seats_2019,votes_2019,fed_now,state_now,leader_now
+Jammu & Kashmir,1,20/12/2014,People's Democratic,JKPDP,,--,,Win,Mufti Mohammad Sayeed,28,"22,7",--,,"2,4",NDA,Win,Mufti Mohammad Sayeed
+Jammu & Kashmir,1,20/12/2014,Bharatiya Janata,BJP,,BJP,,Win,Nirmal Kumar Singh,25,"23,0",BJP,3,"46,4",BJP,Win,Nirmal Kumar Singh
+Jammu & Kashmir,1,20/12/2014,National Conference,JKNC,,--,Inc,,Omar Abdullah,15,"20,8",UPA,3,"7,9",--,,Omar Abdullah
+Jammu & Kashmir,1,20/12/2014,Congress,INC,,INC,Inc,,,12,"18,0",INC,,"28,5",INC,,
+Jammu & Kashmir,1,20/12/2014,Other,Other,,--,,,,4,"15,5",,,,--,,
+Jammu & Kashmir,1,20/12/2014,Independent,Ind,,--,,,,3,,,,,--,,
+Himachal Pradesh,2,09/11/2017,Bharatiya Janata,BJP,,BJP,,Win,Prem Kumar Dhumal,44,"48,8",BJP,4,"69,1",BJP,Win,Prem Kumar Dhumal
+Himachal Pradesh,2,09/11/2017,Congress,INC,,INC,Inc,,Virbhadra Singh,21,"41,7",INC,,"27,3",INC,,Virbhadra Singh
+Himachal Pradesh,2,09/11/2017,Communist (Marxist),CPI(M),,Left,,,,1,"1,5",,,,Left,,
+Himachal Pradesh,2,09/11/2017,Independent,Ind,,--,,,,2,"6,3",,,,--,,
+Punjab,3,04/02/2017,Congress,INC,,INC,,Win,Amarinder Singh,77,"38,5",INC,8,"40,1",INC,Win,Amarinder Singh
+Punjab,3,04/02/2017,Aam Aadmi,AAP,Common Man's,--,,,,20,"23,7",Fed,1,"7,4",--,,
+Punjab,3,04/02/2017,Shiromani Akali Dal,SAD,,NDA,Inc,,Parkash Singh Badal,15,"25,2",NDA,2,"27,5",NDA,,Parkash Singh Badal
+Punjab,3,04/02/2017,Bharatiya Janata,BJP,,BJP,Inc,,,3,"5,4",BJP,2,"9,6",BJP,,
+Punjab,3,04/02/2017,Lok Insaaf,LIP,,--,,,,2,"1,2",MGB,,,--,,
+Haryana,5,21/10/2019,Bharatiya Janata,BJP,,BJP,Inc,Win,Manohar Lal Khattar,40,"37,1",BJP,10,"58,0",BJP,Win,Manohar Lal Khattar
+Haryana,5,21/10/2019,Jannayak Janata,JJP,Devi Lal's people,--,,Win,Dushyant Chautala,10,"15,1",,,,NDA,Win,Dushyant Chautala
+Haryana,5,21/10/2019,Congress,INC,,INC,,,Bhupinder Singh Hooda,31,"28,5",INC,,"28,4",INC,,Bhupinder Singh Hooda
+Haryana,5,21/10/2019,Other,Other,,--,,,,2,"9,6",,,,Janata,,
+Haryana,5,21/10/2019,Independent,Ind,,--,,,,7,"9,2",,,,--,,
+Delhi,6,11/02/2020,Aam Aadmi,AAP,Common Man's,--,Inc,Win,Arvind Kejriwal,62,"53,6",Fed,,"18,1",--,Win,Arvind Kejriwal
+Delhi,6,11/02/2020,Bharatiya Janata,BJP,,BJP,,,Manoj Tiwari,8,"38,5",BJP,7,"56,6",BJP,,Manoj Tiwari
+Rajasthan,7,07/12/2018,Congress,INC,,INC,,Win,Ashok Gehlot,100,"39,3",INC,,"34,2",INC,Win,Ashok Gehlot
+Rajasthan,7,07/12/2018,Rashtriya Lok Dal,RLD,,UPA,,Win,,1,"0,3",,,,UPA,Win,
+Rajasthan,7,07/12/2018,Bharatiya Janata,BJP,,BJP,Inc,,Vasundhara Raje,73,"38,8",BJP,24,"58,5",BJP,,Vasundhara Raje
+Rajasthan,7,07/12/2018,Other,Other,,--,,,,13,"10,8",NDA,1,"2,0",--,,
+Rajasthan,7,07/12/2018,Independent,Ind,,--,,,,13,"9,5",,,,--,,
+Uttarakhand,8,15/02/2017,Bharatiya Janata,BJP,,BJP,,Win,Trivendra Singh Rawat,57,"46,5",BJP,5,"61,0",BJP,Win,Trivendra Singh Rawat
+Uttarakhand,8,15/02/2017,Congress,INC,,INC,Inc,,Harish Rawat,11,"33,5",INC,,"31,4",INC,,Harish Rawat
+Uttarakhand,8,15/02/2017,Independent,Ind,,--,,,,2,"10,0",,,,--,,
+Uttar Pradesh,9,08/03/2017,Bharatiya Janata,BJP,,BJP,,Win,Yogi Adityanath,312,"39,7",BJP,62,"49,6",BJP,Win,Yogi Adityanath
+Uttar Pradesh,9,08/03/2017,Apna Dal (Sonelal),ADAL,,NDA,,Win,,9,"1,0",NDA,2,"1,0",NDA,Win,
+Uttar Pradesh,9,08/03/2017,Samajwadi,SP,Socialist,UPA-SP,Inc,,Akhilesh Yadav,47,"22,0",MGB,5,"18,0",--,,Akhilesh Yadav
+Uttar Pradesh,9,08/03/2017,Congress,INC,,INC,,,,7,"6,2",INC,1,"6,3",INC,,
+Uttar Pradesh,9,08/03/2017,Bahujan Samaj,BSP,People in majority,--,,,Mayawati,19,"22,2",MGB,10,"19,3",--,,Mayawati
+Uttar Pradesh,9,08/03/2017,Other,Other,,--,,,,6,"3,1",,,,--,,
+Uttar Pradesh,9,08/03/2017,Independent,Ind,,--,,,,3,"2,6",,,,--,,
+Madhya Pradesh,10,28/11/2018,Congress,INC,,INC,,Win,Kamal Nath,114,"40,9",INC,1,"34,5",INC,Win,Kamal Nath
+Madhya Pradesh,10,28/11/2018,Bharatiya Janata,BJP,,BJP,Inc,,Shivraj Singh Chouhan,109,"41,0",BJP,28,"58,0",BJP,,Shivraj Singh Chouhan
+Madhya Pradesh,10,28/11/2018,Other,Other,,--,,,,7,"10,9",,,,--,,
+Bihar,12,05/11/2015,Janata Dal (United),JD(U),,Reg,Inc,Win,Nitish Kumar,71,"16,8",NDA,16,"21,8",NDA,Win,Nitish Kumar
+Bihar,12,05/11/2015,Bharatiya Janata,BJP,,BJP,,,Sushil Modi,53,"24,4",BJP,17,"23,6",BJP,Win,Sushil Modi
+Bihar,12,05/11/2015,Rashtriya Janata Dal,RJD,National People's Party,Reg,Inc,Win,Lalu Prasad Yadav,80,"18,4",UPA,,"15,4",UPA,,Lalu Prasad Yadav
+Bihar,12,05/11/2015,Congress,INC,,Reg,Inc,Win,,27,"6,7",INC,1,"7,7",INC,,
+Bihar,12,05/11/2015,Other,Other,,--,,,,8,"23,9",NDA,6,"7,9",--,,
+Bihar,12,05/11/2015,Independent,Ind,,--,,,,4,"9,4",,,,--,,
+Jharkhand,13,20/12/2019,Jharkhand Mukti Morcha,JMM,Liberation Front,UPA,,Win,Hemant Soren,30,"18,7",UPA,1,"11,5",UPA,Win,Hemant Soren
+Jharkhand,13,20/12/2019,Congress,INC,,INC,,Win,Rameshwar Oraon,16,"13,9",INC,1,"15,6",INC,Win,Rameshwar Oraon
+Jharkhand,13,20/12/2019,Rashtriya Janata Dal,RJD,National People's,UPA,,Win,,1,"2,8",,,,UPA,Win,
+Jharkhand,13,20/12/2019,Bharatiya Janata,BJP,,BJP,Inc,,Raghubar Das,25,"33,4",BJP,11,"51,0",BJP,,Raghubar Das
+Jharkhand,13,20/12/2019,Other,Other,,--,,,,7,"15,1",NDA,1,,--,,
+Jharkhand,13,20/12/2019,Independent,Ind,,--,,,,2,"16,2",,,,--,,
+Gujarat,14,14/12/2017,Bharatiya Janata,BJP,,BJP,Inc,Win,Vijay Rupani,99,"49,1",BJP,26,"62,2",BJP,Win,Vijay Rupani
+Gujarat,14,14/12/2017,Congress,INC,,INC,,,Bharatsinh Solanki,77,"41,4",INC,,"32,1",INC,,Bharatsinh Solanki
+Gujarat,14,14/12/2017,Other,Other,,--,,,,3,"3,4",,,,--,,
+Gujarat,14,14/12/2017,Independent,Ind,,--,,,,3,"4,3",,,,--,,
+Maharashtra,17,21/10/2019,Bharatiya Janata,BJP,,BJP,Inc,,Devendra Fadnavis,105,"25,8",BJP,23,"27,6",BJP,,Devendra Fadnavis
+Maharashtra,17,21/10/2019,Shiv Sena,SS,,NDA,Inc,Win,Uddhav Thackeray,56,"16,4",NDA,18,"23,3",NDA,Win,Uddhav Thackeray
+Maharashtra,17,21/10/2019,Nationalist Congress,NCP,,UPA,,Win,Sharad Pawar,54,"16,7",UPA,4,"15,5",UPA,Win,Sharad Pawar
+Maharashtra,17,21/10/2019,Congress,INC,,INC,,Win,Balasaheb Thorat,44,"15,9",INC,1,"16,3",INC,Win,Balasaheb Thorat
+Maharashtra,17,21/10/2019,Communist (Marxist),CPI(M),,Left,,,,1,"0,4",,,,Left,,
+Maharashtra,17,21/10/2019,Other,Other,,--,,,,16,"24,9",--,1,,--,,
+Maharashtra,17,21/10/2019,Independent,Ind,,--,,,,13,,--,1,,--,,
+Goa,18,04/02/2017,Congress,INC,,INC,,,Pratapsingh Rane,17,"28,4",INC,1,"42,9",INC,,Pratapsingh Rane
+Goa,18,04/02/2017,Bharatiya Janata,BJP,,BJP,Inc,Win,Laxmikant Parsekar,13,"32,5",BJP,1,"51,2",BJP,Win,Laxmikant Parsekar
+Goa,18,04/02/2017,Other NDA,MGP,,NDA,,Win,,6,"8,1",NDA,,,NDA,Win,
+Goa,18,04/02/2017,Nationalist Congress,NCP,,--,,,,1,"2,3",,,,--,,
+Goa,18,04/02/2017,Independent,Ind,,--,,,,3,"11,1",,,,--,,
+Karnataka,19,12/05/2018,Bharatiya Janata,BJP,,BJP,,,B. S. Yediyurappa,104,"36,4",BJP,25,"51,4",BJP,Win,B. S. Yediyurappa
+Karnataka,19,12/05/2018,Congress,INC,,INC,Inc,Win,Siddaramaiah,80,"38,1",INC,1,"31,9",INC,,Siddaramaiah
+Karnataka,19,12/05/2018,Janata Dal (Secular),JD(S),,NDA,,Win,H. D. Kumaraswamy,37,"18,3",UPA,1,"9,7",UPA,,H. D. Kumaraswamy
+Karnataka,19,12/05/2018,Other,Other,,--,,,,2,"2,4",,,,--,,
+Karnataka,19,12/05/2018,Independent,Ind,,--,,,,1,"3,9",--,1,,--,,
+Kerala,21,16/05/2016,Communist (Marxist),CPI(M),,Left,Inc,Win,Pinarayi Vijayan,59,"26,7",Left,1,"25,8",Left,Win,Pinarayi Vijayan
+Kerala,21,16/05/2016,Communist,CPI,,Left,Inc,Win,,19,"8,2",Left,,"6,1",Left,Win,
+Kerala,21,16/05/2016,Other Left,--,,Left,Inc,Win,,15,"7,1",Left,2,,Left,Win,
+Kerala,21,16/05/2016,Congress,INC,,INC,,,Oommen Chandy,21,"23,8",INC,15,"37,3",INC,,Oommen Chandy
+Kerala,21,16/05/2016,Indian Union Muslim League,IUML,,UPA,,,,18,"7,4",UPA,2,"5,5",UPA,,
+Kerala,21,16/05/2016,Other UPA,--,,UPA,,,,6,"4,4",UPA,,,UPA,,
+Kerala,21,16/05/2016,Bharatiya Janata,BJP,,BJP,,,,1,"10,6",BJP,,"12,9",BJP,,
+Kerala,21,16/05/2016,Independent,Ind,,--,,,,1,"1,1",,,,--,,
+Tamil Nadu,22,16/05/2016,All India Anna Dravida Munnetra Kazhagam,AIADMK,Anna = CN Annadurai,NDA,Inc,Win,J. Jayalalithaa,136,"41,1",NDA,1,"18,5",NDA,Win,Edappadi K. Palaniswami
+Tamil Nadu,22,16/05/2016,Dravida Munnetra Kazhagam,DMK,Dravidian Progress Federation,UPA,,,M. Karunanidhi,89,"31,9",UPA,24,"32,8",UPA,,M. K. Stalin
+Tamil Nadu,22,16/05/2016,Congress,INC, ,INC,,,,8,"6,5",INC,8,"12,8",INC,,
+Tamil Nadu,22,16/05/2016,Indian Union Muslim League,IUML,,UPA,,,,1,"0,7",UPA,1,"1,1",UPA,,
+Puducherry,23,16/05/2016,Congress,INC,,INC,,Win,V. Narayanasamy,15,"30,6",INC,1,"56,3",INC,Win,V. Narayanasamy
+Puducherry,23,16/05/2016,Dravida Munnetra Kazhagam,DMK,Dravidian Progress Federation,UPA,,Win,,2,"8,9",,,,UPA,Win,
+Puducherry,23,16/05/2016,All India NR Congress,AINRC,,--,Inc,,N. Rangaswamy,8,"28,1",NDA,,"31,4",--,,N. Rangaswamy
+Puducherry,23,16/05/2016,All India Anna Dravida Munnetra Kazhagam,AIADMK,Anna = CN Annadurai,--,,,,4,"16,8",,,,--,,
+Puducherry,23,16/05/2016,Independent,Ind,,--,,,,1,"7,9",,,,--,,
+Chhattisgarh,24,20/11/2018,Congress,INC,,INC,,Win,Bhupesh Baghel,68,"43,0",INC,2,"40,9",INC,Win,Bhupesh Baghel
+Chhattisgarh,24,20/11/2018,Bharatiya Janata,BJP,,BJP,Inc,,Raman Singh,15,"33,0",BJP,9,"50,7",BJP,,Raman Singh
+Chhattisgarh,24,20/11/2018,Other,Other,,--,,,,7,"22,0",,,,--,,
+Andhra Pradesh,25,11/04/2019,YSR Congress,YSRCP,"Youth, Labour, Farmers",--,,Win,Jagan Mohan Reddy,151,"50,0",--,22,"49,2",--,Win,Jagan Mohan Reddy
+Andhra Pradesh,25,11/04/2019,Jana Sena,JS,People's Army,--,,,Pawan Kalyan,1,"6,8",--,0,"7,0",NDA,,Pawan Kalyan
+Andhra Pradesh,25,11/04/2019,Telugu Desam,TDP,of the Telugu Land,--,Inc,,Chandrababu Naidu,23,"39,6",Fed,3,"39,6",--,,Chandrababu Naidu
+Telangana,26,07/12/2018,Telangana Rashtra Samithi,TRS,Union for Telangana,--,Inc,Win,K. Chandrashekar Rao,88,"46,9",Fed,9,"41,3",--,Win,K. Chandrashekar Rao
+Telangana,26,07/12/2018,Congress,INC,,INC,,,N. Uttam Kumar Reddy,19,"28,4",INC,3,"29,5",INC,,N. Uttam Kumar Reddy
+Telangana,26,07/12/2018,Bharatiya Janata,BJP,,BJP,,,,1,"7,1",BJP,4,"19,5",BJP,,
+Telangana,26,07/12/2018,Other,Other,,--,,,,11,"13,2",--,1,"2,8",--,,
+Telangana,26,07/12/2018,Independent,Ind,,--,,,,1,"3,3",,,,--,,
+Odisha,27,29/04/2019,Biju Janata Dal,BJD,,--,Inc,Win,Naveen Patnaik,113,"44,7",Fed,12,"42,8",--,Win,Naveen Patnaik
+Odisha,27,29/04/2019,Bharatiya Janata,BJP,,BJP,,,Pradipta Kumar Naik,23,"32,5",BJP,8,"38,4",BJP,,Pradipta Kumar Naik
+Odisha,27,29/04/2019,Congress,INC,,INC,,,Niranjan Patnaik,9,"16,1",INC,1,"13,8",INC,,Niranjan Patnaik
+Odisha,27,29/04/2019,Communist (Marxist),CPI(M),,Left,,,,1,"0,3",,,,--,,
+Odisha,27,29/04/2019,Independent,Ind,,--,,,,1,"1,1",,,,--,,
+West Bengal,28,05/05/2016,All India Trinamool Congress,AITC,,--,Inc,Win,Mamata Banerjee,211,"44,9",Fed,22,"43,3",--,Win,Mamata Banerjee
+West Bengal,28,05/05/2016,Congress,INC,,INC,,,Abdul Mannan,44,"12,3",INC,2,"5,6",INC,,Abdul Mannan
+West Bengal,28,05/05/2016,Communist (Marxist),CPI(M),,UPA-LF,,,Surya Kanta Mishra,26,"19,8",Left,,"6,3",Left,,Surya Kanta Mishra
+West Bengal,28,05/05/2016,Other Left,--,,UPA-LF,,,,6,"6,6",,,,Left,,
+West Bengal,28,05/05/2016,Bharatiya Janata,BJP,,BJP,,,Dilip Ghosh,3,"10,2",BJP,18,"40,3",BJP,,Dilip Ghosh
+West Bengal,28,05/05/2016,Gorkha Janmukti Morcha,GJM,,NDA,,,,3,"0,5",,,,--,,
+West Bengal,28,05/05/2016,Independent,Ind,,--,,,,1,"2,2",,,,--,,
+Sikkim,29,11/04/2019,Sikkim Krantikari Morcha,SKM,Revolutionary Front,--,,Win,Prem Singh Tamang,17,"47,0",--,1,"47,5",NDA,Win,Prem Singh Tamang
+Sikkim,29,11/04/2019,Sikkim Democratic Front,SDF,,--,Inc,,Pawan Kumar Chamling,15,"47,6",--,,"43,9",BJP,Win,Pawan Kumar Chamling
+Assam,30,11/04/2016,Bharatiya Janata,BJP,,BJP,,Win,Sarbananda Sonowal,60,"29,5",BJP,9,"36,1",BJP,Win,Sarbananda Sonowal
+Assam,30,11/04/2016,Asom Gana Parishad,AGP,Assam Peoples Association,NDA,,Win,,14,"8,1",,,,NDA,Win,
+Assam,30,11/04/2016,Bodoland People's Front,BPF,,NDA,,Win,,12,"3,9",,,,NDA,Win,
+Assam,30,11/04/2016,Congress,INC,,INC,Inc,,Tarun Gogoi,26,"31,0",INC,3,"35,4",INC,,Tarun Gogoi
+Assam,30,11/04/2016,All India United Democratic Front,AIUDF,,--,,,Badruddin Ajmal,13,"13,0",--,1,"7,8",UPA,,Badruddin Ajmal
+Assam,30,11/04/2016,Independent,Ind,,--,,,,1,"11,0",--,1,,--,,
+Meghalaya,31,27/02/2018,Congress,INC,,INC,Inc,,Mukul Sangma,21,"28,5",INC,1,"48,3",INC,,Mukul Sangma
+Meghalaya,31,27/02/2018,National People's,NPP,,NDA,,Win,Conrad Sangma,19,"20,6",NDA,1,"22,3",NDA,Win,Conrad Sangma
+Meghalaya,31,27/02/2018,United Democratic,UDP,,NDA,,Win,,6,"11,6",,,,NDA,Win,
+Meghalaya,31,27/02/2018,Bharatiya Janata,BJP,,BJP,,Win,,2,"9,6",BJP,,"7,9",BJP,Win,
+Meghalaya,31,27/02/2018,Other NDA,--,,NDA,,Win,,6,"13,5",,,,NDA,Win,
+Meghalaya,31,27/02/2018,Other,Other,,--,,,,2,"4,5",,,,--,,
+Meghalaya,31,27/02/2018,Independent,Ind,,--,,,,3,"10,8",,,,--,,
+Arunachal Pradesh,32,11/04/2019,Bharatiya Janata,BJP,,BJP,Inc,Win,Pema Khandu,41,"50,9",BJP,2,"58,2",BJP,Win,Pema Khandu
+Arunachal Pradesh,32,11/04/2019,Janata Dal (United),JD(U),,NDA,,,,7,"9,9",,,,NDA,,
+Arunachal Pradesh,32,11/04/2019,National People's,NPP,,NDA,Inc,,,5,"14,6",,,,NDA,,
+Arunachal Pradesh,32,11/04/2019,Congress,INC,,INC,,,Nabam Tuki,4,"16,9",INC,,"20,7",INC,,Nabam Tuki
+Arunachal Pradesh,32,11/04/2019,Other,Other,,--,,,,1,"4,8",,,,--,,
+Arunachal Pradesh,32,11/04/2019,Independent,Ind,,--,,,,2,"3,0",,,,--,,
+Nagaland,33,27/02/2018,National Democratic Progressive,NDPP,,NDA,,Win,Neiphiu Rio,18,"25,2",NDA,1,"49,7",NDA,Win,Neiphiu Rio
+Nagaland,33,27/02/2018,Bharatiya Janata,BJP,,BJP,,Win,,12,"15,3",BJP,,,BJP,Win,
+Nagaland,33,27/02/2018,Other NDA,--,,NDA,,Win,,3,"11,4",,,,NDA,Win,
+Nagaland,33,27/02/2018,Nagaland People's Front,NPF,,--,Inc,,T. R. Zeliang,26,"38,8",,,,--,,T. R. Zeliang
+Nagaland,33,27/02/2018,Independent,Ind,,--,,,,1,"4,3",,,,--,,
+Manipur,34,08/03/2017,Congress,INC,,INC,Inc,,Okram Ibobi Singh,28,"35,1",INC,,"24,6",INC,,Okram Ibobi Singh
+Manipur,34,08/03/2017,Bharatiya Janata,BJP,,BJP,,Win,N. Biren Singh,21,"36,3",BJP,1,"34,2",BJP,Win,N. Biren Singh
+Manipur,34,08/03/2017,Other Coalition,--,,--,,Win,,9,"14,8",--,1,"22,5",NDA,Win,
+Manipur,34,08/03/2017,Independent,Ind,,--,,,,1,"5,1",,,,--,,
+Manipur,34,08/03/2017,Other,Other,,--,,,,1,"8,1",,,,--,,
+Tripura,35,18/02/2018,Bharatiya Janata,BJP,,BJP,,Win,Biplab Kumar Deb,36,"43,0",BJP,2,"49,0",BJP,Win,Biplab Kumar Deb
+Tripura,35,18/02/2018,Indigenous Peoples Front of Tripura,IPFT,,NDA,,Win,,8,"7,5",,,,NDA,Win,
+Tripura,35,18/02/2018,Communist (Marxist),CPI(M),,Left,Inc,,Manik Sarkar,16,"42,7",,,"17,3",Left,,Manik Sarkar
+Mizoram,36,28/11/2018,Mizo National Front,MNF,,NDA,,Win,Zoramthanga,26,"37,6",NDA,1,"44,9",NDA,Win,Zoramthanga
+Mizoram,36,28/11/2018,Bharatiya Janata,BJP,,BJP,,,J. V. Hluna,1,"8,0",BJP,,"5,8",BJP,,J. V. Hluna
+Mizoram,36,28/11/2018,Congress,INC,,INC,Inc,,Lal Thanhawla,5,"20,1",INC,,,INC,,Lal Thanhawla
+Mizoram,36,28/11/2018,Zoram People's Movement,ZPM,,--,,,,8,"22,9",,,,--,,
