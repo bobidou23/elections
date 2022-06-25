@@ -1,0 +1,14 @@
+name: three-way-elections
+title: three-way-elections
+username:
+account: kojisposts
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 6484099
+bundleId: 6008164
+url: https://kojisposts.shinyapps.io/three-way-elections/
+when: 1655244752.47076
+lastSyncTime: 1655244752.47077
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .RData
