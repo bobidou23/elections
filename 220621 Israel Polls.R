@@ -101,7 +101,20 @@ il_polls3 <- il_polls2 %>% #bringing the fitted values into the main polls sheet
   select(-below_avg) %>%
   pivot_wider(id_cols=c(Date,Polling.firm,Publisher),names_from=party, values_from=seats)
 
+il_changes <- il_polls3 %>%
+  pivot_longer(cols=!c(Date,Polling.firm,Publisher), names_to="party", values_to="seats") %>%
+  arrange(Date) %>%
+  group_by(party) %>%
+  mutate(boundary = "",
+         boundary = case_when(!is.na(seats)&is.na(lag(seats,1))&is.na(lag(seats,2))&is.na(lag(seats,3))&is.na(lag(seats,4))&is.na(lag(seats,5)) ~ paste0("start",boundary),TRUE~boundary),
+         boundary = case_when(!is.na(seats)&is.na(lead(seats,1))&is.na(lead(seats,2))&is.na(lead(seats,3))&is.na(lead(seats,4))&is.na(lead(seats,5)) ~ paste0(boundary,"end"),TRUE~boundary)) %>%
+  filter(boundary=="start"|boundary=="end") %>%
+  mutate(time = ceiling(row_number()/2)) %>%
+  arrange(party) %>%
+  select(party,time,Date,boundary) %>%
+  pivot_wider(id_cols=c(party,time),names_from=boundary,values_from=Date)
 
+impdates <- c(unique(il_elections$Date),"2020-12-06")
 #Calculate rolling averages (30 days)
 il_avgs <- data.frame(matrix(NA,nrow=length(seq(as.Date("2018-12-25"), today(), by=1)), #moving averages
                              ncol=length(unique(il_parties$party2))+2))
@@ -113,27 +126,42 @@ for (i in seq(as.Date("2018-12-25"), today(), by=1)) {
   #   if(nrow(filter(il_polls3, Date>i-days(30), Date<=i)) > 5) {30} else {60}
   # screen <- 
   # il_avgs[nrow,2] <- screen
-  il_avgs[nrow,3:(ncol(il_polls3)-1)] <- lapply(filter(il_polls3, Date>i-days(30), Date<=i)[,4:ncol(il_polls3)], mean, na.rm=TRUE) %>%
+  mindate <- max(impdates[impdates <= i],i-days(30))
+  il_avgs[nrow,3:(ncol(il_polls3)-1)] <- lapply(filter(il_polls3, Date>mindate, Date<=i)[,4:ncol(il_polls3)],
+                                                function(x) if (i<=max(il_polls3$Date[!is.na(x)])) {mean(x, na.rm=TRUE)} else {NA}) %>%
   unlist()
 }
+
+lapply(il_polls3[,4:ncol(il_polls3)],
+       function(x) {
+         for (i in seq(as.Date("2018-12-25"), today(), by=1)) {
+           i <- as.Date(i, origin = lubridate::origin)
+           nrow <- i-as.Date("2018-12-25")+1
+           mindate <- max(impdates[impdates <= i],i-days(30))
+           
+           
+       }})
 colnames(il_avgs) <- c("Date","screen",colnames(il_polls3)[-1:-3]) #add column names
 il_avgs[,1] <- seq(as.Date("2018-12-25"), today(), by=1) #add date column
 il_avgs <- il_avgs %>% #AVOID DOUBLE COUNTING
   rowwise() %>%
   mutate(bibi_bloc = sum(JewishHome,Kahlon,Likud,Shas,UTJ,Feiglin,OtzmaYehudit,ReligiousZionist,na.rm=TRUE),
-         bibi_bloc = case_when(Date<as.Date("2019-05-01") ~ sum(bibi_bloc+Yamina+Lieberman,na.rm=TRUE),
-                               Date<as.Date("2021-06-02") ~ sum(bibi_bloc+Yamina,na.rm=TRUE),
+         bibi_bloc = case_when(Date<"2019-05-01" ~ sum(bibi_bloc+Yamina+Lieberman,na.rm=TRUE),
+                               Date<"2021-06-02" ~ sum(bibi_bloc+Yamina,na.rm=TRUE),
                                TRUE~bibi_bloc),
+         bibi_bloc = case_when(bibi_bloc>0 ~ bibi_bloc, TRUE~NA),
          left_arab = sum(JointList,Meretz,YeshAtid,Labor,Livni,HadashTaal,BlueWhite,Raam,Barak,Shaffir,Huldai,Shelah,na.rm=TRUE)-3,
+         left_arab = case_when(left_arab>0 ~ left_arab, TRUE~NA),
          left_right = sum(Levy,YeshAtid,Lieberman,Labor,Livni,BlueWhite,Barak,Shaffir,HendelHauser,Saar,Huldai,Shelah,Yaalon,na.rm=TRUE),
-         left_right = case_when(Date>as.Date("2021-06-02")~sum(left_right,Yamina,Meretz,Raam,na.rm=TRUE),
-                                Date>as.Date("2020-03-11")~sum(left_right,Yamina,na.rm=TRUE),
-                                Date<as.Date("2019-05-01")~sum(left_right,Lieberman,na.rm=TRUE),
-                                TRUE ~ left_right))
+         left_right = case_when(Date>"2021-06-02"~sum(left_right,Yamina,Meretz,Raam,na.rm=TRUE),
+                                Date>"2020-03-11"~sum(left_right,Yamina,na.rm=TRUE),
+                                Date<"2019-05-01"~sum(left_right,Lieberman,na.rm=TRUE),
+                                TRUE ~ left_right),
+         left_right = case_when(left_right>0 ~ left_right, TRUE~NA))
 il_avgs[(il_avgs$Date %in% (c(rep(unique(il_elections$Date),each=30)+seq(1,30,by=1)))),2:ncol(il_avgs)] <- NA #put breaks just after elections, for the graph
 
 il_avgs %>% #GRAPH-MAKING
-  select(-bibi_bloc,-left_arab,-left_right, -screen) %>%
+  # select(-bibi_bloc,-left_arab,-left_right, -screen) %>%
   pivot_longer(cols=-Date,names_to="party",values_to="seats") %>% #keep NA so line graph doesn't connect
   left_join(il_parties2,"party") %>%
   ggplot(aes(x=Date,y=seats,group=party,color=type)) +
@@ -249,14 +277,14 @@ il_parties <- data.frame(party = c("Hadash.Ta.al","Ta.al",
                                     "HendelHauser","Shaffir","Livni","Barak","Huldai","JointList","Kahlon",
                                     "Saar","Shas",
                                     "Yaalon","Shelah","UTJ","Feiglin"))
-il_parties2 <- data.frame(party = c("HadashTaal","Raam","Raam",
+il_parties2 <- data.frame(party = c("HadashTaal","Raam",
                                     "LaborMeretz","Meretz","Labor","Levy",
                                     "BlueWhite","YeshAtid","Gantz","Zelekha",
                                     "Lieberman","Likud","Yamina","Bennett",
                                     "JewishHome","ReligiousZionist","OtzmaYehudit",
                                     "HendelHauser","Shaffir","Livni","Barak","Huldai","JointList","Kahlon",
                                     "Saar","Shas","Yaalon","Shelah","UTJ","Feiglin"),
-                          type= c("Arab","Arab","Arab",
+                          type= c("Arab","Arab",
                                   "Left","Left","Left","Centre",
                                   "Centre","Centre","Centre","Centre",
                                   "Right","Likud","Right","Right",
